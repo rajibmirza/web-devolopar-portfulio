@@ -43,6 +43,9 @@ nav ul li a{
   font-size: 20px;
 
 }
+.secondary-bg{
+  background-color: #FFF8F3;
+}
 
 .dark2{
   color: #474747;
@@ -56,6 +59,11 @@ nav ul li a{
   border: none;
 
 }
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
 .banner-content{
  min-width:  885px;
   
@@ -64,4 +72,28 @@ nav ul li a{
   display: flex;
   justify-content: space-between;
   margin: 0px 35px 0px 200px;
+}
+
+section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #474747;
+}
+section-description{
+  font-size: 18px;
+  color:#181818 ;
+}
+.about{
+  border-radius:10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+  
+}
+.item-description{
+  font-weight: 600px;
+}
+.about-items{
+display: flex;
+justify-content: space-around;
 }
